@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App using HTML CSS and Javascript | Codehal</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+            <div class="top">
+              <div class="img_section">
+                <div class="default_info">
+                  <h2 class="default_day">Sunday</h2>
+                  <span class="default_date">18 September 2023 </span>
+                  <div class="icons">
+                    <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="Weahter"/>
+                    <h2 class="weather_temp">22°C</h2>
+                    <h3 class="cloudtxt">Overcast Clouds</h3>
+                  </div>
+                </div>
+                <div class="content_section">
+                  <div class="day_info">
+                    <div class="content">
+                      <p class="title">NAME</p>
+                      <span class="value">Bhopal</span>
+                    </div>
+                    <div class="content">
+                      <p class="title">TEMP</p>
+                      <span class="value">35°C</span>
+                    </div>
+                    <div class="content">
+                      <p class="title">HUMIDITY</p>
+                      <span class="value">19%</span>
+                    </div>
+                    <div class="content">
+                      <p class="title">WIND SPEED</p>
+                      <span class="value">2.92 Km/h</span>
+                    </div>
+                  </div>
+        
+                </div>
+              </div>
+              <div class="search">
+                <form>
+                  <input type="text" placeholder="Search Location" class="input_field"/>
+                  <button type="submit" class="btn_search">Search</button>
+                </form>
+              </div>
+            </div>
+            <div class="bottom">
+              <div class="list_content">
+                <ul>
+                  <li>
+                    <span id="day">Sun</span>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                    <span class="day_temp">23°C</span>
+                  </li>
+                  <li>
+                    <span id="day">Mon</span>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                    <span class="day_temp">23°C</span>
+                  </li>
+                  <li>
+                    <span id="day">Tue</span>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                    <span class="day_temp">23°C</span>
+                  </li>
+                  <li>
+                    <span id="day">Wed</span>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                    <span class="day_temp">23°C</span>
+                  </li>
+                  <li>
+                    <span id="day">Thu</span>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                    <span class="day_temp">25°C</span>
+                  </li>
+                  <li>
+                    <span id="day">Fri</span>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                    <span class="day_temp">22°C</span>
+                  </li>
+                  <li>
+                    <span id="day">Sat</span>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                    <span class="day_temp">22°C</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+    </div>
+    <Script src="script.js"></Script>
+</body>
+</html>
